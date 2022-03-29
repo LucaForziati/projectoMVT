@@ -28,4 +28,3 @@ def agregarFamiliar(request, nombre, apellido, num_de_la_suerte, nacimiento):
         "num_de_la_suerte": familiar_nuevo.num_de_la_suerte, 
         "nacimiento": familiar_nuevo.nacimiento
         }))
-    
