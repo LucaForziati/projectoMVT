@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "Familia",
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'projectoMVT.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r"C:\Users\User\Documents\Estudios\programacion\Coderhouse\18_django_parte2\projectoMVT\projectoMVT\projectoMVT\Familia\templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
