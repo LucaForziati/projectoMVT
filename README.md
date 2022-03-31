@@ -13,8 +13,7 @@ Para poder acceder a la base de datos utilice la siguiente funcion:
     familia = Familia.objects.all()
     return render(request, "familia.html", {"familia": familia})
   
-Para escribirlos en el html utilice un bucle for:
-  
+Para escribirlos en el html utilice un bucle for:  
   {% for familiar in familia %}
     <p><span style = color:rgb(105,36,36)>-{{familiar.nombre}} {{familiar.apellido}}</span> <br>Su numero de la suerte es el {{familiar.num_de_la_suerte}}.<br> 
     Nació en {{familiar.nacimiento}}.</p>
