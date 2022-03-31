@@ -1,6 +1,8 @@
 # projectoMVT
 Mi primer MVT
 
+Tuve una pequeña mezcla entre el ingles y el español y me quedo "projecto". No termine de decidirme por cual idioma emplear, je.
+
 En la rama principal desarrolle toda la base hasta que llegue a la parte de la visualizacion de los familiares. Como no sabia como hacerlo, cree una rama por las dudas que empiece a fallar todo. Al terminar la visualizacion uni la rama secundaria a la principal.
 
 Con la url "http://127.0.0.1:8000/familia/" --> accedes a la carga de los familaires.
