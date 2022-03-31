@@ -4,6 +4,7 @@ from django.template import Context, loader
 
 from Familia.models import Familia
 
+
 # Create your views here.
 
 def familia(request):
@@ -28,3 +29,8 @@ def agregarFamiliar(request, nombre, apellido, num_de_la_suerte, nacimiento):
         "num_de_la_suerte": familiar_nuevo.num_de_la_suerte, 
         "nacimiento": familiar_nuevo.nacimiento
         }))
+
+def mostrar_familia(request):
+
+    familia = Familia.objects.all()
+    return render(request, "familia.html", {"familia": familia})
